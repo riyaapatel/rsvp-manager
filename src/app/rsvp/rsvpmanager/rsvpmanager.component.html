@@ -1,0 +1,23 @@
+<h2 class="m-2">RSVP Manager</h2>
+<hr />
+<table class="table m-2">
+  <tr>
+    <th>Name</th>
+    <th>RSVP Status</th>
+  </tr>
+  <tr *ngFor="let player of data">
+    <td>{{ player.name }}</td>
+    <td>
+      <select [(ngModel)]="player.rsvp" (change)="changeRSVP(player)">
+        <option *ngFor="let status of rsvpOptions" [value]="status">
+          {{ status }}
+        </option>
+      </select>
+    </td>
+  </tr>
+</table>
+<button class="btn m-2" (click)="getConfirmedAttendees()">
+  List Confirmed Attendees
+</button>
+
+<button class="btn m-2" (click)="getCounts()">Counts</button>

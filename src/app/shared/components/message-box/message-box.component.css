@@ -1,0 +1,39 @@
+.modal-footer{
+    border-radius: 0 !important;
+    border: 0 !important;
+}
+
+.btn-close:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+.modal-footer .btn{
+    border: 0;
+    font-weight: bold;
+}
+
+.modal-footer .btn:hover{
+    background: none;
+    border: none;
+    color: black;
+}
+
+.modal-header{
+    font-size: 20px;
+}
+
+
+.modal-footer button.submit{
+    background-color: #03c168;
+    color: white;
+    border-radius: 4px;
+}
+
+
+.modal-footer button.submit:hover{
+    background-color: #03c168;
+    color: white;
+    border-radius: 4px;
+}
+

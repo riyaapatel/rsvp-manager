@@ -1,0 +1,25 @@
+<div class="modal-header">
+  <h4 class="modal-title">List of Confirmed Attendees</h4>
+  <button
+    type="button"
+    class="btn-close"
+    aria-label="Close"
+    (click)="onClose()"
+  ></button>
+</div>
+<div class="modal-body">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">RSVP Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let player of confirmendAttendees">
+        <td>{{ player.name }}</td>
+        <td>{{ player.rsvp }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

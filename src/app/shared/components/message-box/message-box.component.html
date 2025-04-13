@@ -1,0 +1,23 @@
+<div class="modal-header">
+  <h4 class="modal-title">{{ title }}</h4>
+  <button
+    type="button"
+    class="btn-close"
+    aria-label="Close"
+    (click)="onClose()"
+  ></button>
+</div>
+<div class="modal-body">
+  <p [innerHTML]="text"></p>
+</div>
+<div class="modal-footer">
+  <button
+    *ngIf="showCancelButton"
+    type="button"
+    class="btn"
+    (click)="onClose()"
+  >
+    Close
+  </button>
+  <button type="button" class="btn submit" (click)="onSubmit()">Ok</button>
+</div>

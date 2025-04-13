@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "name" : "John",
+        "rsvp": "Yes"
+    },
+    {
+        "id": 2,
+        "name" : "Jeel",
+        "rsvp": "No"
+    },
+    {
+        "id": 3,
+        "name" : "Amy",
+        "rsvp": "Maybe"
+    },
+    {
+        "id": 4,
+        "name" : "Alex",
+        "rsvp": "Yes"
+    },
+    {
+        "id": 5,
+        "name" : "Joe",
+        "rsvp": "No"
+    },
+    {
+        "id": 6,
+        "name" : "Michael",
+        "rsvp": ""
+    }
+
+]
