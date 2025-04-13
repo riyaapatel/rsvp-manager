@@ -15,3 +15,6 @@ This is a simple RSVP management module built using Angular.
 npm install
 ng serve
 ```
+src/assets/players.json – Mock data for players
+src/app/rsvp – RSVP manager component
+src/services/rsvpservice.service.ts – Logic for managing players
